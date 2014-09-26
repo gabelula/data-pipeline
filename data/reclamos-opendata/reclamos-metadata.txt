@@ -1,0 +1,42 @@
+*
+*  METADATOS DEL DATASET "Reclamos"
+*
+*     GENERADO CON EL SOFTWARE PUBLICO ABREDATOS 
+*     http://municipiomaldonado.gub.uy/abredatos
+*
+*
+
+- NOMBRE DEL DATASET: Reclamos
+- CHARSET: ISO8859-1
+- INSTITUCION QUE LIBERA LOS DATOS: Municipio de Maldonado
+- GENERADO EN FECHA/HORA: 24-09-2014 / 22:44:08
+- INTERVALO DE REGENERACION (HORAS): 72
+- LICENCIA DE LOS DATOS: GNU GPL Version 3
+- CATEGORIA DE DATOS: Municipio/reclamos
+- DESCRIPCION DEL DATASET: Reclamos que ingresan al Municipio de Maldonado (desde la web municipiomaldonado.gub.uy y desde los Terminales de Autogestión localizados en los Centros Comunales).
+
+Descripción de campos en los archivos del dataset:
+
+reclamos-lista-barrios.csv
+Campos: id, nombre_barrio
+
+reclamos-lista-dependencias.csv
+Campos: id, nombre_dependencia
+
+reclamos-lista-motivosreclamo.csv
+Campos: id, motivo_reclamo
+
+reclamos-reclamos.csv
+Campos: id,  status, fecha, IDmotivo_reclamo, latitud, longitud, IDbarrio, calle, entre_calles
+
+* status indica la dependencia a la cual fue asignado el reclamo. 0 indica reclamo no asignado. Status de tres dígitos indican destinos internos del Municipio (no figuran en la tabla reclamos-lista-dependencias)
+
+
+
+- FICHEROS CONTENIDOS EN EL DATASET:
+
+  	reclamos-lista-barrios.csv
+	reclamos-lista-dependencias.csv
+	reclamos-lista-motivosreclamo.csv
+	reclamos-reclamos.csv
+	reclamos-metadata.txt
